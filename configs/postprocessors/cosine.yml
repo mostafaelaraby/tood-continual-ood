@@ -1,0 +1,7 @@
+postprocessor:
+  name: cosine
+  APS_mode: False
+  postprocessor_args:
+    sampling_ratio: 1.0
+  postprocessor_sweep:
+    sampling_ratio: [0.1, 0.5, 1.0]

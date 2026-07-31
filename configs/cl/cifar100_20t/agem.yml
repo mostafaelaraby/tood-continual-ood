@@ -1,0 +1,40 @@
+scenario:
+  n_experiences: 20
+  seed: 1
+  shuffle: False
+  dataset_dir: tmp/
+  return_task_id: False
+  make_plots: False
+  resume_eval: False
+  fixed_class_order: fixed
+  class_order_pickle: none
+  ckpt_dir: tmp/checkpoints
+  init_weights_path: tmp/initial_weights.pth
+  init_mode: checkpoint
+strategy:
+  name: AGEM
+  train_mb_size: 64
+  train_epochs: 70
+  eval_mb_size: 64
+  patterns_per_exp: 100      # 2000 / 20 tasks
+  milestones: []
+  lr_gamma: 0.1
+  clip_grad: True
+  max_norm: 1.0
+model:
+  name: resnet32
+optimizer:
+  name: SGD
+  lr: 0.03
+  momentum: 0.9
+  weight_decay: 0.0005
+  nesterov: False
+use_amp: False
+calibrate_ood_scores:
+  enabled: False
+  method: mean_shift       # mean_shift | z_norm | robust_anchor | zero_mean | none
+  buffer_size: 20
+  margin_lambda: 0.5
+  anchor: recent           # reference: recent | oldest | max_spread | mean_all
+  buffer_selection: random # exemplar selection: random | herding
+  task_split_factor: 1     # >1 evaluates finer task partitions at inference
