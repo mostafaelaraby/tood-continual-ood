@@ -1,7 +1,7 @@
 # TOOD: Task-Aware Out-of-Distribution Score Calibration for Continual Learners
 
 This repository contains the implementation accompanying
-[the paper](paper.pdf). It combines Avalanche continual-learning benchmarks
+[the paper](https://cdn.fourwaves.com/static/media/formdata/ed6c71eb-f6ae-4710-944d-c458f6f289a9/fbd3392c-3314-4168-9007-e18130a6747e.pdf). It combines Avalanche continual-learning benchmarks
 with OpenOOD post-hoc detectors to study OOD performance throughout a
 class-incremental learning stream.
 
