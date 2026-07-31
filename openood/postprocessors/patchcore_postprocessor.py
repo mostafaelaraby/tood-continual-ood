@@ -1,5 +1,12 @@
 from __future__ import absolute_import, division, print_function
 
+"""OpenOOD PatchCore postprocessor.
+
+This file contains Apache-2.0-licensed portions carrying Google copyright
+notices below. Those portions were modified for OpenOOD/TOOD integration.
+See ``LICENSES/Apache-2.0.txt`` and ``THIRD_PARTY_NOTICES.md``.
+"""
+
 import abc
 import os
 

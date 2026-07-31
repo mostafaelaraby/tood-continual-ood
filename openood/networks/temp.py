@@ -3,6 +3,8 @@ ImageNet-Style ResNet
 [1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
     Deep Residual Learning for Image Recognition. arXiv:1512.03385
 Adapted from: https://github.com/bearpaw/pytorch-classification
+Copyright (c) 2017 Wei Yang. MIT licensed; see
+LICENSES/pytorch-classification-MIT.txt.
 """
 import torch
 import torch.nn as nn

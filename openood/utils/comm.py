@@ -1,4 +1,7 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
+# Licensed under the Apache License, Version 2.0.
+# See LICENSES/Apache-2.0.txt.
+# Modified for inclusion in OpenOOD and the TOOD continual-OOD project.
 """This file contains primitives for multi-gpu communication.
 
 This is useful when doing distributed training.

@@ -1,4 +1,9 @@
-"""Adapted from: https://github.com/facebookresearch/odin."""
+"""ODIN postprocessor.
+
+Adapted from: https://github.com/facebookresearch/odin
+The cited upstream project is CC-BY-NC-4.0 licensed. See
+``THIRD_PARTY_NOTICES.md`` and ``LICENSES/ODIN-CC-BY-NC-4.0.md``.
+"""
 from typing import Any
 
 import torch

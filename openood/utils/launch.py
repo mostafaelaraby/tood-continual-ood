@@ -1,4 +1,7 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
+# Licensed under the Apache License, Version 2.0.
+# See LICENSES/Apache-2.0.txt.
+# Modified for inclusion in OpenOOD and the TOOD continual-OOD project.
 import logging
 from datetime import timedelta
 

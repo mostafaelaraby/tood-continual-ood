@@ -253,6 +253,19 @@ Run the release tests from the repository root:
 python -m pytest -q Tests
 ```
 
+## License and Third-Party Software
+
+Original TOOD code and documentation are released under the
+[MIT License](LICENSE). The vendored OpenOOD components retain their upstream
+MIT license in [`openood/LICENSE`](openood/LICENSE).
+
+Some vendored files carry different terms. In particular, the ODIN
+postprocessor identifies itself as adapted from a CC BY-NC 4.0 project, so
+that component is restricted to noncommercial use. Apache-2.0 and additional
+MIT notices are also preserved. See
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) and the [`LICENSES/`](LICENSES/)
+directory before redistributing or using the repository commercially.
+
 ## Troubleshooting
 
 | Symptom                                   | Likely cause                                  | Fix                                                 |
