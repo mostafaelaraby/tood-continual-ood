@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use TOOD in your research, please cite the paper in preferred-citation."
+type: software
+title: "TOOD: Task-Aware Out-of-Distribution Score Calibration for Continual Learners"
+authors:
+  - family-names: ElAraby
+    given-names: Mostafa
+  - family-names: Nashed
+    given-names: Samer B.
+  - family-names: Paull
+    given-names: Liam
+preferred-citation:
+  type: conference-paper
+  title: "TOOD: Task-Aware Out-of-Distribution Score Calibration for Continual Learners"
+  authors:
+    - family-names: ElAraby
+      given-names: Mostafa
+    - family-names: Nashed
+      given-names: Samer B.
+    - family-names: Paull
+      given-names: Liam
+  collection-title: Conference on Lifelong Learning Agents
+  publisher:
+    name: PMLR
+  year: 2026

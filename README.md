@@ -11,6 +11,26 @@ mechanism analyses are included. Standalone scripts for downloading completed
 W&B runs or reformatting results into paper-specific figures and LaTeX tables
 are intentionally excluded.
 
+## Citation
+
+If you use TOOD in your research, please cite the main paper:
+
+ElAraby, Mostafa, Samer B. Nashed, and Liam Paull. "TOOD: Task-Aware
+Out-of-Distribution Score Calibration for Continual Learners." Conference on
+Lifelong Learning Agents, PMLR, 2026.
+
+```bibtex
+@inproceedings{elaraby2026tood,
+  author    = {ElAraby, Mostafa and Nashed, Samer B. and Paull, Liam},
+  title     = {{TOOD}: Task-Aware Out-of-Distribution Score Calibration for Continual Learners},
+  booktitle = {Conference on Lifelong Learning Agents},
+  publisher = {PMLR},
+  year      = {2026}
+}
+```
+
+Citation metadata is also available in [`CITATION.cff`](CITATION.cff).
+
 ## Installation
 
 ### Local system
